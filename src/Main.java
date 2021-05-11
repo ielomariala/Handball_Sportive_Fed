@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException, java.io.IOException {
         // Preparation de la connexion.
         OracleDataSource ods = new OracleDataSource();
-        ods.setUser("mboullit");
-        ods.setPassword("mboullit");
+        ods.setUser("xxxx");
+        ods.setPassword("xxxx");
         // URL de connexion, on remarque que le pilote utilise est "thin".
         ods.setURL("jdbc:oracle:thin:@localhost:1521/oracle");
 
